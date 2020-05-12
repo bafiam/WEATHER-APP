@@ -1,0 +1,17 @@
+#searchForm {
+  height: 70px;
+  width: 100%;
+}
+
+input[type='search'] {
+  height: 100% !important;
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  transition: all 0.3s;
+}
+
+::placeholder {
+  color: #242e50;
+}

@@ -5,7 +5,7 @@ main {
   padding-top: 20px;
 }
 
-main div {
+#maincontent {
   width: calc(100% - 320px);
   height: inherit;
   background-color: rgb(192, 192, 226);
