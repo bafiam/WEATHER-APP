@@ -1,0 +1,13 @@
+main {
+  height: calc(100% - 25px);
+  width: 100%;
+  background-color: rgb(117, 117, 167);
+  padding-top: 20px;
+}
+
+main div {
+  width: calc(100% - 320px);
+  height: inherit;
+  background-color: rgb(192, 192, 226);
+  margin: auto;
+}

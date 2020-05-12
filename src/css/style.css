@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+div,
+nav,
+main,
+header {
+  box-sizing: border-box;
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+}
