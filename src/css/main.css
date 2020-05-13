@@ -1,0 +1,25 @@
+main {
+  height: calc(100% - 25px);
+  width: inherit;
+  background-color: rgb(117, 117, 167);
+  padding-top: 20px;
+}
+
+#maincontent {
+  width: calc(100% - 320px);
+  height: inherit;
+  background-color: rgb(192, 192, 226);
+  margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  #maincontent {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #maincontent {
+    width: 100%;
+  }
+}

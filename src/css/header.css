@@ -1,0 +1,46 @@
+header {
+  height: 50px;
+}
+
+nav {
+  height: inherit;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav div {
+  height: 100%;
+  width: 100%;
+  background-color: #fafafa;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+nav div p {
+  margin-left: 40px;
+  width: 320px;
+  font-size: 33px;
+  font-weight: bold;
+  color: #fff;
+  color: #234083;
+  line-height: 50px;
+}
+
+p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  nav div {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav div {
+    width: 70px;
+  }
+}
