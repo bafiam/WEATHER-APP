@@ -1,6 +1,6 @@
 main {
   height: calc(100% - 25px);
-  width: 100%;
+  width: inherit;
   background-color: rgb(117, 117, 167);
   padding-top: 20px;
 }

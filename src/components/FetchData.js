@@ -11,7 +11,7 @@ const makeRequest = async url => {
     return response
     
   } else {
-    return Promise.reject({error: 500})
+    return Promise.reject({error: "That is not a invalid city name"})
   }
 }
 
@@ -21,7 +21,7 @@ const fetchData = async (url) => {
     return response.json();
     
   } catch (error) {
-    console.log(error);
+    return error
   }
   
   

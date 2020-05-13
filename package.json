@@ -30,6 +30,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "places.js": "^1.18.2"
   }
 }
