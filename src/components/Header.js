@@ -1,5 +1,5 @@
 import { element, text } from './MakeElements';
-import '../css/header.css'
+import '../css/header.css';
 
 const Header = () => {
   const header = element('HEADER');
@@ -10,7 +10,7 @@ const Header = () => {
 
   p.appendChild(pTxt);
   div1.appendChild(p);
-  
+
 
   nav.append(div1);
 

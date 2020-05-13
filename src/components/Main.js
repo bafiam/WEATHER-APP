@@ -1,6 +1,6 @@
-import { element, text} from "./MakeElements";
+import { element } from './MakeElements';
 import searchForm from './Search';
-import '../css/main.css'
+import '../css/main.css';
 import weatherData from './DisplayData';
 
 const Main = () => {
@@ -8,7 +8,7 @@ const Main = () => {
   const mainDiv = element('DIV');
   mainDiv.setAttribute('id', 'maincontent');
 
-  mainDiv.append(searchForm(), weatherData())
+  mainDiv.append(searchForm(), weatherData());
 
   main.append(mainDiv);
 
