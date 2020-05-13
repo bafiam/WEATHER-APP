@@ -32,3 +32,15 @@ nav div p {
 p {
   margin: 0;
 }
+
+@media only screen and (max-width: 767px) {
+  nav div {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav div {
+    width: 70px;
+  }
+}

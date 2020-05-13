@@ -11,3 +11,15 @@ main {
   background-color: rgb(192, 192, 226);
   margin: auto;
 }
+
+@media only screen and (max-width: 767px) {
+  #maincontent {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #maincontent {
+    width: 100%;
+  }
+}
