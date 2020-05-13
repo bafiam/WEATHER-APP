@@ -10,7 +10,7 @@ DOM manipulation by dynamically rendering a simple weather forecast site using t
 
 ## Live Demo
 
-[Live link]()
+[Live link](https://rawcdn.githack.com/bafiam/WEATHER-APP/feature/weather_app/dist/index.html)
 
 ## Prerequisites
 
