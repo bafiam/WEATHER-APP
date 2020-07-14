@@ -2,6 +2,16 @@
 
 DOM manipulation by dynamically rendering a simple weather forecast site using the weather API.The goal of the project is to show the understanding of the asynchronous communication with promises or async/await.
 
+## Screenshots
+
+### Home
+
+![screenshot](weather.png)
+
+### Search
+
+![screenshot](weather-app.png)
+
 ## Built With
 
 - Javascript(ES6)
